@@ -1,4 +1,4 @@
-from scapy import all
+from scapy.all import *
 
 a = Ether(src=get_if_hwaddr("eth0"), dst="ff:ff:ff:ff:ff:ff") / ARP(
     op="is-at",

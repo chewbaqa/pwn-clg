@@ -1,4 +1,4 @@
-from scapy import all
+from scapy.all import *
 
 pckt = (
     Ether(src=get_if_hwaddr("eth0"), dst="ff:ff:ff:ff:ff:ff")
